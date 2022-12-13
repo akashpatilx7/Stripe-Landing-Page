@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Submenu.css";
 import { useGlobalContext } from "../../context";
 
-
 const Submenu = () => {
   // Destructuring the Global Context Components into the SubMenu Component
   const {

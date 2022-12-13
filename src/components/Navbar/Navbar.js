@@ -4,7 +4,6 @@ import logo from "../../images/logo.svg";
 import { FaBars, FaChevronRight } from "react-icons/fa";
 import { useGlobalContext } from "../../context";
 
-
 const Navbar = () => {
   const { openSidebar, openSubmenu, closeSubmenu } = useGlobalContext();
 

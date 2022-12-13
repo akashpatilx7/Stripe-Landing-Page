@@ -4,7 +4,6 @@ import { useGlobalContext } from "../../context";
 import sublinks from "../../data";
 import "./Sidebar.css";
 
-
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
   return (

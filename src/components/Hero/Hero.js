@@ -4,7 +4,6 @@ import { FaChevronRight } from "react-icons/fa";
 import { useGlobalContext } from "../../context";
 import "./Hero.css";
 
-
 const Hero = () => {
   const { closeSubmenu } = useGlobalContext();
 
